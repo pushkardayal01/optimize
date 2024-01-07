@@ -1,0 +1,13 @@
+.navbar{
+    background-color: black;
+    height: 50px;
+    display: block;
+    align-content: center;
+}
+.b1{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 50px;
+
+}
