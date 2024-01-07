@@ -1,7 +1,16 @@
 .box{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 200px;
     background-color: gray;
     margin-top: 50px;
     margin-left: 400px;
+    align-content: center;
+    align-items: center;
+}
+
+.select{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
 }
