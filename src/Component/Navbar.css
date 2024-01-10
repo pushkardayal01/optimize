@@ -1,13 +1,12 @@
-.navbar{
+.Navbar{
     background-color: black;
-    height: 50px;
-    display: block;
-    align-content: center;
+    height: 40px;
 }
-.b1{
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 5px;
-    border-radius: 50px;
-
+.uploadbtn{
+    background-color: black;
+    color: white;
+}
+.downloadbtn{
+    background-color: black;
+    color: white;
 }

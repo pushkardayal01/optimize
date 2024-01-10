@@ -1,21 +1,22 @@
 import React from 'react'
-
+import './Upload.css'
 const Upload = () => {
   return (
-    <div className="box">
-         <div className='primary select'>Select the File</div>
-         <input className ='input' type="file" id="fileInput" name="fileInput"></input>
-         <div className='primary select'>Choose the Operations</div>
-         <div className="dropdown">
-            <select name="Operations" id="operations">
-            <option value="opt_cutting_layout">Cutting Layout</option>
-            <option value="opt_laminate_layout">Laminate Layout</option>
-            <option value="opt_pasting_layout">Pasting Layout</option>
-            
-            </select>
-         </div>
-         <button>Upload the file</button>
-    </div>
+    <div class="container">
+    <form>
+      <label for="fileInput">Choose the file:</label>
+      <input type="file" id="fileInput" name="fileInput"/>
+
+      <label for="operationSelect">Choose the operation:</label>
+      <select id="operationSelect" name="operationSelect">
+        <option value="laminate">Laminate</option>
+        <option value="pasting">Pasting</option>
+        <option value="cutting">Cutting</option>
+      </select>
+
+      <button type="submit">Upload</button>
+    </form>
+  </div>
   )
 }
 

@@ -1,8 +1,7 @@
 /* styles.css */
 
-  
-  .container {
-    background-color: #d4cece;
+.container {
+    background-color: #ff0000;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -12,11 +11,10 @@
   label {
     display: block;
     margin-bottom: 10px;
-    color: #0d0505;
-
+    color: #ffffff;
   }
   
-  input[type="file"],
+  input[type="text"],
   select {
     width: 100%;
     padding: 10px;
@@ -25,12 +23,17 @@
   }
   
   button {
-    background-color: #48f43c;
-    color: #f7e9e9;
+    background-color: #ffffff;
+    color: #ff0000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-right: 10px;
   }
   
+  #downloadButton {
+    background-color: #4CAF50; /* Green color for download button */
+    color: #ffffff;
+  }

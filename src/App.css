@@ -1,16 +1,9 @@
-.box{
-    width: 400px;
-    height: 200px;
-    background-color: gray;
-    margin-top: 50px;
-    margin-left: 400px;
-    align-content: center;
-    align-items: center;
-}
 
-.select{
-    text-align: center;
-    color: aliceblue;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
